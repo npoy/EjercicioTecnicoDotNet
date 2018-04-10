@@ -8,6 +8,16 @@ namespace EjercicioTecnicoDotNet.Infrastructure.Entities
 {
     public class RentalByWeek : IRental
     {
-        public int Charging { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Unity { get; set; }
+        public int Charging { get; set; } = 60;
+
+        public int GetSubTotal()
+        {
+            int result;
+            result = Unity * Charging;
+            return result;
+        }
     }
 }

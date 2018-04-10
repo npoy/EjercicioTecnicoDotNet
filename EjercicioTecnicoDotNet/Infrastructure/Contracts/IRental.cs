@@ -8,6 +8,11 @@ namespace EjercicioTecnicoDotNet.Infrastructure.Contracts
 {
     public interface IRental
     {
+        string Name { get; set; }
+        string Surname { get; set; }
+        int Unity { get; set; }
         int Charging { get; set; }
+
+        int GetSubTotal();
     }
 }
