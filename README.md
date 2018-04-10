@@ -1,0 +1,2 @@
+# EjercicioTecnicoDotNet
+Ejercicio técnico .NET
