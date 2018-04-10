@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c088b718-1f91-445a-b57d-f7f9edfcc86d" name="npoy@EX-NICOLAS-P 2018-04-10 16:47:32" runUser="DOMINIO\npoy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6f3c3263-1b79-49c4-8485-abbd0eb848d8">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="npoy_EX-NICOLAS-P 2018-04-10 16_47_32" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-04-10T16:47:32.5027073-03:00" queuing="2018-04-10T16:47:33.1074984-03:00" start="2018-04-10T16:47:33.1692569-03:00" finish="2018-04-10T16:47:33.7656240-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByDay_OK_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="076d9b50-7440-e4a5-956b-f78a0efcd00d">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="cd28f4a3-05c5-4adc-9d82-8a9eae5b7699" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByDay_OK_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByWeek_OK_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="8b448e9a-d68b-a551-18a8-8112aa36ccda">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="89384d16-5470-478e-b254-9727dc26e6f7" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByWeek_OK_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByHour_NotNull_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="adc660be-f72d-9840-6f53-d2e0a5a71a69">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="59a0af9e-1762-4130-9535-a2203ad830f9" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByHour_NotNull_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByHour_OK_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="ccba96fa-325b-c562-b10d-ec61870ea038">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="45ff2df8-cc76-405d-8e20-9aeb90a99c88" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByHour_OK_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByDay_NotNull_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="64c3c97d-8367-0711-8a16-be0c87e71da8">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="3f001558-c53a-434d-b6ff-f72b0b8cd7e8" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByDay_NotNull_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="PlanFactory_CreateInstance_IndividualPlan_OK_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="02173ce6-5b95-11b0-ffef-84341cc03769">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="51c110ff-00e5-4888-b507-252f1c0408ee" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.PlanTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlanFactory_CreateInstance_IndividualPlan_OK_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="PlanFactory_CreateInstance_FamilyPlan_OK_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="bb11949d-a9b2-e743-e639-7c26f3d45a0a">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="4dcde834-42be-4113-ba14-9665f9b037c3" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.PlanTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlanFactory_CreateInstance_FamilyPlan_OK_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="PlanFactory_CreateInstance_IndividualPlan_NotNull_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="236fbb51-f212-e054-1ea7-bbc9b0f7a023">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="83a664f9-e9b6-449a-8a48-ee3750df65c0" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.PlanTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlanFactory_CreateInstance_IndividualPlan_NotNull_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="PlanFactory_CreateInstance_FamilyPlan_NotNull_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="740b0309-90ab-0008-b50e-0decaeb1d38f">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="49446e93-243e-4655-8cdd-cda0ec5ac867" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.PlanTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlanFactory_CreateInstance_FamilyPlan_NotNull_Test_Unit" />
+    </UnitTest>
+    <UnitTest name="RentalFactory_CreateInstance_RentalByWeek_NotNull_Test_Unit" storage="c:\gitrepos\ejerciciotecnicodotnet\ejerciciotecnicodotnet.tests\bin\debug\ejerciciotecnicodotnet.tests.dll" id="f89ce21a-b50b-6283-08f1-2ad13156a4dd">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Unit" />
+      </TestCategory>
+      <Execution id="5606eb64-7d9f-4f95-aece-353d29c7d99e" />
+      <TestMethod codeBase="C:/GitRepos/EjercicioTecnicoDotNet/EjercicioTecnicoDotNet.Tests/bin/Debug/EjercicioTecnicoDotNet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="EjercicioTecnicoDotNet.Tests.RentalTest, EjercicioTecnicoDotNet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RentalFactory_CreateInstance_RentalByWeek_NotNull_Test_Unit" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="740b0309-90ab-0008-b50e-0decaeb1d38f" executionId="49446e93-243e-4655-8cdd-cda0ec5ac867" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bb11949d-a9b2-e743-e639-7c26f3d45a0a" executionId="4dcde834-42be-4113-ba14-9665f9b037c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="236fbb51-f212-e054-1ea7-bbc9b0f7a023" executionId="83a664f9-e9b6-449a-8a48-ee3750df65c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02173ce6-5b95-11b0-ffef-84341cc03769" executionId="51c110ff-00e5-4888-b507-252f1c0408ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64c3c97d-8367-0711-8a16-be0c87e71da8" executionId="3f001558-c53a-434d-b6ff-f72b0b8cd7e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076d9b50-7440-e4a5-956b-f78a0efcd00d" executionId="cd28f4a3-05c5-4adc-9d82-8a9eae5b7699" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adc660be-f72d-9840-6f53-d2e0a5a71a69" executionId="59a0af9e-1762-4130-9535-a2203ad830f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccba96fa-325b-c562-b10d-ec61870ea038" executionId="45ff2df8-cc76-405d-8e20-9aeb90a99c88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f89ce21a-b50b-6283-08f1-2ad13156a4dd" executionId="5606eb64-7d9f-4f95-aece-353d29c7d99e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b448e9a-d68b-a551-18a8-8112aa36ccda" executionId="89384d16-5470-478e-b254-9727dc26e6f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="49446e93-243e-4655-8cdd-cda0ec5ac867" testId="740b0309-90ab-0008-b50e-0decaeb1d38f" testName="PlanFactory_CreateInstance_FamilyPlan_NotNull_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0923373" startTime="2018-04-10T16:47:33.2832658-03:00" endTime="2018-04-10T16:47:33.7104755-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49446e93-243e-4655-8cdd-cda0ec5ac867">
+    </UnitTestResult>
+    <UnitTestResult executionId="4dcde834-42be-4113-ba14-9665f9b037c3" testId="bb11949d-a9b2-e743-e639-7c26f3d45a0a" testName="PlanFactory_CreateInstance_FamilyPlan_OK_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0007617" startTime="2018-04-10T16:47:33.7114791-03:00" endTime="2018-04-10T16:47:33.7134850-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dcde834-42be-4113-ba14-9665f9b037c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="83a664f9-e9b6-449a-8a48-ee3750df65c0" testId="236fbb51-f212-e054-1ea7-bbc9b0f7a023" testName="PlanFactory_CreateInstance_IndividualPlan_NotNull_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0002181" startTime="2018-04-10T16:47:33.7144865-03:00" endTime="2018-04-10T16:47:33.7164925-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83a664f9-e9b6-449a-8a48-ee3750df65c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="51c110ff-00e5-4888-b507-252f1c0408ee" testId="02173ce6-5b95-11b0-ffef-84341cc03769" testName="PlanFactory_CreateInstance_IndividualPlan_OK_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0027716" startTime="2018-04-10T16:47:33.7164925-03:00" endTime="2018-04-10T16:47:33.7205209-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51c110ff-00e5-4888-b507-252f1c0408ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="3f001558-c53a-434d-b6ff-f72b0b8cd7e8" testId="64c3c97d-8367-0711-8a16-be0c87e71da8" testName="RentalFactory_CreateInstance_RentalByDay_NotNull_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0001416" startTime="2018-04-10T16:47:33.7215062-03:00" endTime="2018-04-10T16:47:33.7235241-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f001558-c53a-434d-b6ff-f72b0b8cd7e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd28f4a3-05c5-4adc-9d82-8a9eae5b7699" testId="076d9b50-7440-e4a5-956b-f78a0efcd00d" testName="RentalFactory_CreateInstance_RentalByDay_OK_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0002588" startTime="2018-04-10T16:47:33.7245131-03:00" endTime="2018-04-10T16:47:33.7265193-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd28f4a3-05c5-4adc-9d82-8a9eae5b7699">
+    </UnitTestResult>
+    <UnitTestResult executionId="59a0af9e-1762-4130-9535-a2203ad830f9" testId="adc660be-f72d-9840-6f53-d2e0a5a71a69" testName="RentalFactory_CreateInstance_RentalByHour_NotNull_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0001524" startTime="2018-04-10T16:47:33.7265193-03:00" endTime="2018-04-10T16:47:33.7285375-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="59a0af9e-1762-4130-9535-a2203ad830f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="45ff2df8-cc76-405d-8e20-9aeb90a99c88" testId="ccba96fa-325b-c562-b10d-ec61870ea038" testName="RentalFactory_CreateInstance_RentalByHour_OK_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0002255" startTime="2018-04-10T16:47:33.7295282-03:00" endTime="2018-04-10T16:47:33.7315328-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45ff2df8-cc76-405d-8e20-9aeb90a99c88">
+    </UnitTestResult>
+    <UnitTestResult executionId="5606eb64-7d9f-4f95-aece-353d29c7d99e" testId="f89ce21a-b50b-6283-08f1-2ad13156a4dd" testName="RentalFactory_CreateInstance_RentalByWeek_NotNull_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0001524" startTime="2018-04-10T16:47:33.7315328-03:00" endTime="2018-04-10T16:47:33.7335384-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5606eb64-7d9f-4f95-aece-353d29c7d99e">
+    </UnitTestResult>
+    <UnitTestResult executionId="89384d16-5470-478e-b254-9727dc26e6f7" testId="8b448e9a-d68b-a551-18a8-8112aa36ccda" testName="RentalFactory_CreateInstance_RentalByWeek_OK_Test_Unit" computerName="EX-NICOLAS-P" duration="00:00:00.0002173" startTime="2018-04-10T16:47:33.7345405-03:00" endTime="2018-04-10T16:47:33.7355426-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89384d16-5470-478e-b254-9727dc26e6f7">
+    </UnitTestResult>
+  </Results>
+</TestRun>
