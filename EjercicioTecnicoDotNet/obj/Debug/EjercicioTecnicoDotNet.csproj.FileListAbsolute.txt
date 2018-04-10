@@ -81,3 +81,4 @@ C:\GitRepos\EjercicioTecnicoDotNet\EjercicioTecnicoDotNet\obj\Debug\EjercicioTec
 C:\GitRepos\EjercicioTecnicoDotNet\EjercicioTecnicoDotNet\obj\Debug\EjercicioTecnicoDotNet.pdb
 C:\GitRepos\EjercicioTecnicoDotNet\EjercicioTecnicoDotNet\bin\NLog.dll
 C:\GitRepos\EjercicioTecnicoDotNet\EjercicioTecnicoDotNet\bin\NLog.xml
+C:\GitRepos\EjercicioTecnicoDotNet\EjercicioTecnicoDotNet\obj\Debug\EjercicioTecnicoDotNet.csprojResolveAssemblyReference.cache
