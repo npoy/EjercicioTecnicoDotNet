@@ -21,7 +21,7 @@ namespace EjercicioTecnicoDotNet.Infrastructure.Entities
         public decimal GetSubTotal()
         {
             decimal result;
-            int rentalsTotal = 0;
+            decimal rentalsTotal = 0;
 
             foreach (var rental in Rentals)
             {
