@@ -7,7 +7,7 @@ using System.Web;
 namespace EjercicioTecnicoDotNet.Infrastructure.Entities
 {
     /// <summary>
-    /// Individual plan.
+    /// Individual plan entity.
     /// </summary>
     public class IndividualPlan : IPlan
     {

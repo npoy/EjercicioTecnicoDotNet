@@ -6,10 +6,18 @@ using System.Web;
 
 namespace EjercicioTecnicoDotNet.Infrastructure.Entities
 {
+    /// <summary>
+    /// Family plan entity.
+    /// </summary>
     public class FamilyPlan : IPlan
     {
         public List<IRental> Rentals { get; set; }
         public decimal Discount { get; set; } = 30;
+
+        /// <summary>
+        /// Method that returns the subtotal of a family rental.
+        /// </summary>
+        /// <returns></returns>
         public decimal GetSubTotal()
         {
             decimal result;
