@@ -25,7 +25,7 @@ namespace EjercicioTecnicoDotNet.Infrastructure.Entities
 
             foreach (var rental in Rentals)
             {
-                int rentalCost = (rental.Unity * rental.Charging);
+                int rentalCost = rental.GetSubTotal();
 
                 rentalsTotal += rentalCost;
             }

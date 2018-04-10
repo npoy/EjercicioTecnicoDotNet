@@ -30,13 +30,13 @@ namespace EjercicioTecnicoDotNet.Infrastructure.Factories
             IPlan result;
             int unity = rentals.Count();
 
-            string planType;
+            string planType = "";
 
-            if (unity >= 3)
+            if (unity >= 3 && unity <= 5)
             {
                 planType = "Family";
             }
-            else
+            else if (unity > 0 && unity < 3)
             {
                 planType = "Individual";
             }
